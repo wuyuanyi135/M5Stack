@@ -6,7 +6,7 @@ set(COMPONENT_ADD_INCLUDEDIRS
         src
   )
 
-set(COMPONENT_REQUIRES arduino)
+set(COMPONENT_REQUIRES arduino-esp32)
 
-add_definitions(-DESP32)
+# add_definitions(-DESP32)
 register_component()
